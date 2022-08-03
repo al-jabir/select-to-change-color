@@ -1,0 +1,24 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 5px;
+}
+h1,
+span {
+  font-family: cursive;
+  font-size: 2rem;
+  display: inline-block;
+}
+#selectColor {
+  color: #fff;
+  padding: 5px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
